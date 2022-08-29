@@ -3,6 +3,7 @@ This webapp takes your shopping list and compares data from various local superm
 
 THANKS TO THESE:
     Leon Noel @ 100 Devs
+    
     https://code-boxx.com/shopping-list-vanilla-javascript/#sec-download
 
 main function-
