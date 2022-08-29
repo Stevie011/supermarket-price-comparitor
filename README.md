@@ -37,7 +37,7 @@ updated every week? or how often?
 
 way to access user’s shopping list- maybe stored locally in format that makes it easy to compare to prices
 
-simple algo- add up total for shopping list from each shop, give user back the lowest
+simple algo- add up total for shopping list from each shop, give user back the lowest -  simple form in concept.py
 
 slightly more complicated algo- once lowest price shop is found(for this example, store 1), 
 check if certain number (perhaps if over a certain percentage of total number of items) of items from other stores are cheaper than the same item from original lowest store
