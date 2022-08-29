@@ -7,10 +7,14 @@ THANKS TO THESE:
     https://code-boxx.com/shopping-list-vanilla-javascript/#sec-download
 
 main function-
-give the user a means to compare prices of different supermarkets in area. 
+give the user a means to compare prices of different supermarkets in area.
+
 user can input a shopping list (stored locally? what’s the best way?), and the app tells them where the cheapest place to do their shopping will be. option: split into 2 shops: ie. it’ll be cheapest if you buy these things here and those things there
+
 components-
+
 frontend - the page itself
+
 page design- html & css
 place to input/view shopping list 
 place to view results
