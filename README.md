@@ -63,13 +63,20 @@ current progress-
 simple version of page - takes users inputs for shopping list, stores them in local storage, displays them on the screen after they’ve been added
 
 TO DO:
+
 web page
-make page look a bit nicer (css)
-input validator- check if user input is present in predefined price list
-drop down list that auto-completes based on user input
+
+    make page look a bit nicer (css)
+    
+    input validator- check if user input is present in predefined price list
+    
+    drop down list that auto-completes based on user input
+
 database
-where to get current prices 
-best way to store them 
+
+    where to get current prices 
+    
+    best way to store them 
 
 
 
