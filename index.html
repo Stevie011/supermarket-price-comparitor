@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="Supermarket Price Comparitor" content="This webapp takes your shopping list and compares data from various local supermarkets to determine where the cheapest place is to shop">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+        <h1>Shopping List</h1>
+		
+
+        <div id="shop-wrap">
+            <!-- (A) ADD NEW ITEM -->
+            <form id="shop-form">
+              <input type="text" id="shop-item" placeholder="Item Name" required disabled/>
+              <input type="submit" id="shop-add" value="Add" disabled/>
+            </form>
+           
+            <!-- (B) SHOPPING LIST -->
+            <div id="shop-list"></div>
+        </div>
+
+        <input type="submit" id="calculate" value="Caluclate Cheapest" disabled/>
+          
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
