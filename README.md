@@ -77,6 +77,12 @@ database
     where to get current prices 
     
     best way to store them 
+    
+    create mongo db
+    
+    link page to db
+    
+    execute comparison
 
 
 
