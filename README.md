@@ -2,6 +2,7 @@
 This webapp takes your shopping list and compares data from various local supermarkets to determine where the cheapest place is to shop
 
 THANKS TO THESE:
+
     Leon Noel @ 100 Devs
     
     https://code-boxx.com/shopping-list-vanilla-javascript/#sec-download
