@@ -83,6 +83,11 @@ database
     link page to db
     
     execute comparison
+    
+    
+UPDATE 06/09/2022
+    database and api moved to bit.io (rather than mongodb)
+        -db and api hosting on same site, better sql support
 
 
 
