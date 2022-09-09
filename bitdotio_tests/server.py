@@ -17,7 +17,7 @@ class Count(Resource):
     def get(self):
         conn = b.get_connection("Stevie011/grocery-store-prices")
         cur = conn.cursor()
-        cur.execute('SELECT itemname FROM "price-table.xlsx - Sheet1";')
+        cur.execute('SELECT itemname, checkers, woolworths FROM "price-table.xlsx - Sheet1";')
         return cur.fetchmany()
 
 api.add_resource(Count, '/count')

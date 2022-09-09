@@ -18,7 +18,7 @@ print(results)
 
 #every job posting is wrapped in a <div> element with the class card-content. 
 #search thru results for those
-#job_elements = results.find_all("div", class_="card-content")
+job_elements = results.find_all("div", class_="card-content")
 
 
 #here we pick out child elements for each i of prev results
