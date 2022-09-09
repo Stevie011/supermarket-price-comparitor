@@ -2,6 +2,7 @@
 This webapp takes your shopping list and compares data from various local supermarkets to determine where the cheapest place is to shop
 
 THANKS TO THESE:
+
     Leon Noel @ 100 Devs
     
     https://code-boxx.com/shopping-list-vanilla-javascript/#sec-download
@@ -83,6 +84,11 @@ database
     link page to db
     
     execute comparison
+    
+    
+UPDATE 06/09/2022
+    database and api moved to bit.io (rather than mongodb)
+        -db and api hosting on same site, better sql support
 
 
 
