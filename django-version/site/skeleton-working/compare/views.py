@@ -1,9 +1,12 @@
 from django.shortcuts import render
-from compare.models import Project, Work
+from compare.models import Project, Work, Item
 # Create your views here.
 
 def index(request):
-    return render(request, "index.html")
+    #this gets the item objects
+    _items = Item.objects.all
+    #renders the page and also gives it the item list
+    return render(request, "index.html", {"items": _items})
 
 def page_2(request):
     #this get this objects stored in db in class Project

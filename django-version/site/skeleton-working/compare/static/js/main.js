@@ -45,17 +45,21 @@ var slist = {
     add : (evt) => {
       // (C1) PREVENT FORM SUBMIT
       evt.preventDefault();
-  
-      // (C2) ADD NEW ITEM TO LIST
-      slist.items.push({
-        name : slist.hitem.value, // item name
-        done : false // true for "got it", false for "not yet"
-      });
-      slist.hitem.value = "";
-      slist.save();
-  
-      // (C3) REDRAW HTML SHOPPING LIST
-      slist.draw();
+
+      item_checklist = ["Brown Bread (loaf)", "2 litre fresh milk", "Tuna (tin)", "Toilet paper (24)", "Doritos Sweet Chili 145g", "Strawberries 250g", "Baked Beans (tin)", "White hamburger rolls (6)", "Lettuce Head", "Spaghetti (500g)", "Button Mushrooms (250g)"]
+      if (item_checklist.includes(slist.hitem.value)){
+          // (C2) ADD NEW ITEM TO LIST
+        slist.items.push({
+          name : slist.hitem.value, // item name
+          done : false // true for "got it", false for "not yet"
+        });
+        slist.hitem.value = "";
+        slist.save();
+    
+        // (C3) REDRAW HTML SHOPPING LIST
+        slist.draw();}
+        //***************** */
+        //if item not in list, send error msg
     },
 
     //this one is quite self-explanatory

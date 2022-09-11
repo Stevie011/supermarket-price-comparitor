@@ -21,7 +21,14 @@
         <div id="shop-wrap">
             <!-- (A) ADD NEW ITEM -->
             <form id="shop-form">
-              <input type="text" id="shop-item" placeholder="Item Name" required disabled/>
+              <input type="text" list="items" id="shop-item" placeholder="Item Name" class="form-control" required disabled/>
+              <!-- this bit does the drop down list part  -->
+              <datalist id="items">
+                {% for item in items %}
+                    <option value="{{ item.name }}"></option>
+                {% endfor %}
+
+              </datalist>
               <input type="submit" id="shop-add" value="Add" disabled/>
             </form>
            
