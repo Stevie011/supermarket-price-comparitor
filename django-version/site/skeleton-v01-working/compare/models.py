@@ -9,8 +9,8 @@ from django.db import models
 
 
 class Groceries(models.Model):
-    id = models.BigIntegerField(blank=True, null=True)
-    itemname = models.TextField(blank=True, null=False, primary_key=True)
+    id = models.BigIntegerField(blank=True, null=False, primary_key=True)
+    itemname = models.TextField(blank=True, null=True)
     checkers_price = models.FloatField(blank=True, null=True)
     woolworths_price = models.FloatField(blank=True, null=True)
     pnp_price = models.FloatField(blank=True, null=True)
