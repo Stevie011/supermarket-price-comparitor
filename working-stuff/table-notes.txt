@@ -1,1 +1,0 @@
--For now, only cheapest option for each item added to table.
