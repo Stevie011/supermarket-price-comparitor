@@ -1,6 +1,8 @@
 # supermarket-price-comparitor
 This SaaS app takes your shopping list and compares data from various local supermarkets to determine where the cheapest place is to shop
 
+demo mvp now up!
+
 TO DO (updated 11/09): 
 
 web page
